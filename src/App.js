@@ -83,6 +83,7 @@ class App extends Component {
           <FriendCard
             removeFriend={this.removeFriend}
             id={friend.id}
+            key={friend.id}
             image={friend.image}
            />
         ))}
